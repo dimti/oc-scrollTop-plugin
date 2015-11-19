@@ -1,7 +1,7 @@
 .lnxScrollToTop {
 	border-radius: 10px;
-	width: 45px;
-	height: 37px;
+	width: 30px;
+	height: 30px;
 	line-height: 30px;
 	text-align: center;
 	position: fixed;
@@ -17,6 +17,8 @@
 .lnxScrollToTop:hover {
 	text-decoration: none;
 }
-.lnxScrollToTopArrow {
+.lnxScrollToTopArrow, .lnxScrollToTop > i {
 	display: inline-block;
+	font-size: 35px;
+	color: white;
 }
